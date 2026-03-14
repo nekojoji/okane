@@ -1,0 +1,8 @@
+venv/
+build/
+dist/
+__pycache__/
+.DS_Store
+okane_data/
+*.spec
+*.pyc
