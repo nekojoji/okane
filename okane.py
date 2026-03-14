@@ -66,7 +66,7 @@ class KakeiboApp:
                 tk.Button(r_f, text=b, width=6, height=2, font=("Arial", 16, "bold"), 
                           command=lambda x=b: self.calc_press(x)).pack(side="left", padx=2, pady=2)
 
-        self.lbl_total = tk.Label(root, text="収入: 0 | 支出: 0 | 収支: 0", font=("Arial", 16, "bold"), bg="yellow", relief="sunken")
+        self.lbl_total = tk.Label(root, text="収入: 0 | 支出: 0 | 収支: 0", font=("Arial", 16, "bold"), bg="#9400d3", fg="white", relief="sunken")
         self.lbl_total.pack(fill='x', padx=10, pady=5)
 
         self.restore_all_sheets()
